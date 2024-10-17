@@ -159,6 +159,7 @@ def main(host, port):
     client = Client(host, port)
     username_window(client)  
 
+file_path = os.path.abspath(__file__)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Chatroom Client")

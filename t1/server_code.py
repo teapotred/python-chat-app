@@ -71,6 +71,8 @@ def exit_program(server):
                 connection.sc.close()
             os._exit(0)  
 
+file_path = os.path.abspath(__file__)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Chatroom Server")
